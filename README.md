@@ -16,10 +16,7 @@ TaskFlow, 48 saatlik kısıtlı bir sürede geliştirilmiş, sürükle-bırak (d
 Projeyi yerel ortamınızda test etmek için aşağıdaki adımları izleyebilirsiniz:
 
 1. Repoyu bilgisayarınıza indirin:
-   ```bash
-   git clone [https://github.com/brknatmaca/TaskFlow.git](https://github.com/brknatmaca/TaskFlow.git)
-
-2. Proje klasörüne girin ve gerekli paketleri yükleyin:
+  git clone https://github.com/brknatmaca/TaskFlow.git
     `cd TaskFlow
        npm install `
 

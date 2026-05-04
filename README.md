@@ -1,16 +1,31 @@
-# React + Vite
+# TaskFlow 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Canlı Demo:** (https://task-flow-ashy-one.vercel.app/)  
+**Sunum Dosyası:** (./TaskFlow_Sunum.pdf)
 
-Currently, two official plugins are available:
+TaskFlow, 48 saatlik kısıtlı bir sürede geliştirilmiş, sürükle-bırak (drag & drop) yeteneğine sahip modern bir proje yönetim panosudur. Projede yarım çalışan çok fazla özellik yerine, veritabanı tutarlılığı ve temel sistem performansı ön planda tutulmuştur.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠 Kullanılan Teknolojiler
+* **Arayüz (Frontend):** React, Vite, Tailwind CSS
+* **Sürükle-Bırak Motoru:** `@dnd-kit`
+* **Veritabanı & Backend:** Supabase
+* **Yayınlama (Hosting):** Vercel
 
-## React Compiler
+## 💻 Bilgisayarda Çalıştırma (Kurulum)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Projeyi yerel ortamınızda test etmek için aşağıdaki adımları izleyebilirsiniz:
 
-## Expanding the ESLint configuration
+1. Repoyu bilgisayarınıza indirin:
+   ```bash
+   git clone [https://github.com/brknatmaca/TaskFlow.git](https://github.com/brknatmaca/TaskFlow.git)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Proje klasörüne girin ve gerekli paketleri yükleyin:
+   cd TaskFlow
+   npm install
+
+3. Ana dizinde bir .env dosyası oluşturun ve Supabase bilgilerinizi ekleyin:
+   VITE_SUPABASE_URL=kendi_supabase_url_adresiniz
+   VITE_SUPABASE_ANON_KEY=kendi_supabase_anon_key_bilginiz
+
+4. Geliştirici sunucusunu başlatın:
+   npm run dev  

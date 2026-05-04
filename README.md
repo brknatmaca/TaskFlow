@@ -19,7 +19,8 @@ Projeyi yerel ortamınızda test etmek için aşağıdaki adımları izleyebilir
 ```Bash
 git clone https://github.com/brknatmaca/TaskFlow.git
 cd TaskFlow
-npm install```
+npm install
+```
 
 2. Ana dizinde bir .env dosyası oluşturun ve Supabase bilgilerinizi ekleyin:
 ```VITE_SUPABASE_URL=kendi_supabase_url_adresiniz

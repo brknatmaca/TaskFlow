@@ -23,9 +23,13 @@ npm install
 ```
 
 2. Ana dizinde bir .env dosyası oluşturun ve Supabase bilgilerinizi ekleyin:
-```VITE_SUPABASE_URL=kendi_supabase_url_adresiniz
-VITE_SUPABASE_ANON_KEY=kendi_supabase_anon_key_bilginiz```
+```Kod snippet'i
+VITE_SUPABASE_URL=kendi_supabase_url_adresiniz
+VITE_SUPABASE_ANON_KEY=kendi_supabase_anon_key_bilginiz
+```
 
 3. Geliştirici sunucusunu başlatın:
-   ```npm run dev```
+```Bash
+npm run dev
+```
 

@@ -1,7 +1,7 @@
 # TaskFlow 
 
 **Canlı Demo:** (https://task-flow-ashy-one.vercel.app/)  
-**Sunum Dosyası:** (./TaskFlow_Sunum.pdf)
+**Sunum Dosyası:** [TaskFlow_Sunum.pdf](./TaskFlow_Sunum.pdf)
 
 TaskFlow, 48 saatlik kısıtlı bir sürede geliştirilmiş, sürükle-bırak (drag & drop) yeteneğine sahip modern bir proje yönetim panosudur. Projede yarım çalışan çok fazla özellik yerine, veritabanı tutarlılığı ve temel sistem performansı ön planda tutulmuştur.
 
@@ -20,8 +20,8 @@ Projeyi yerel ortamınızda test etmek için aşağıdaki adımları izleyebilir
    git clone [https://github.com/brknatmaca/TaskFlow.git](https://github.com/brknatmaca/TaskFlow.git)
 
 2. Proje klasörüne girin ve gerekli paketleri yükleyin:
-    ```cd TaskFlow
-       npm install ```
+    `cd TaskFlow
+       npm install `
 
 3. Ana dizinde bir .env dosyası oluşturun ve Supabase bilgilerinizi ekleyin:
     ```VITE_SUPABASE_URL=kendi_supabase_url_adresiniz

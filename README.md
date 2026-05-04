@@ -11,7 +11,7 @@ TaskFlow, 48 saatlik kısıtlı bir sürede geliştirilmiş, sürükle-bırak (d
 * **Veritabanı & Backend:** Supabase
 * **Yayınlama (Hosting):** Vercel
 
-## 💻 Bilgisayarda Çalıştırma (Kurulum)
+## Bilgisayarda Çalıştırma (Kurulum)
 
 Projeyi yerel ortamınızda test etmek için aşağıdaki adımları izleyebilirsiniz:
 
@@ -20,7 +20,7 @@ Projeyi yerel ortamınızda test etmek için aşağıdaki adımları izleyebilir
    git clone [https://github.com/brknatmaca/TaskFlow.git](https://github.com/brknatmaca/TaskFlow.git)
 
 2. Proje klasörüne girin ve gerekli paketleri yükleyin:
-   cd TaskFlow
+    ```cd TaskFlow
    npm install
 
 3. Ana dizinde bir .env dosyası oluşturun ve Supabase bilgilerinizi ekleyin:

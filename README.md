@@ -21,11 +21,11 @@ Projeyi yerel ortamınızda test etmek için aşağıdaki adımları izleyebilir
 
 2. Proje klasörüne girin ve gerekli paketleri yükleyin:
     ```cd TaskFlow
-   npm install
+       npm install ```
 
 3. Ana dizinde bir .env dosyası oluşturun ve Supabase bilgilerinizi ekleyin:
     ```VITE_SUPABASE_URL=kendi_supabase_url_adresiniz
-    ```VITE_SUPABASE_ANON_KEY=kendi_supabase_anon_key_bilginiz
+       VITE_SUPABASE_ANON_KEY=kendi_supabase_anon_key_bilginiz ```
 
 4. Geliştirici sunucusunu başlatın:
-    ```npm run dev  
+    ```npm run dev  ``` 

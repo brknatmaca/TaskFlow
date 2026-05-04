@@ -15,14 +15,14 @@ TaskFlow, 48 saatlik kısıtlı bir sürede geliştirilmiş, sürükle-bırak (d
 
 Projeyi yerel ortamınızda test etmek için aşağıdaki adımları izleyebilirsiniz:
 
-1. Repoyu bilgisayarınıza indirin:
-  git clone https://github.com/brknatmaca/TaskFlow.git
-    `cd TaskFlow
-       npm install `
+1. Repoyu bilgisayarınıza indirin ve proje klasörüne girin:
+git clone https://github.com/brknatmaca/TaskFlow.git
+cd TaskFlow
+npm install
 
-3. Ana dizinde bir .env dosyası oluşturun ve Supabase bilgilerinizi ekleyin:
-    ```VITE_SUPABASE_URL=kendi_supabase_url_adresiniz
-       VITE_SUPABASE_ANON_KEY=kendi_supabase_anon_key_bilginiz ```
+2. Ana dizinde bir .env dosyası oluşturun ve Supabase bilgilerinizi ekleyin:
+VITE_SUPABASE_URL=kendi_supabase_url_adresiniz
+VITE_SUPABASE_ANON_KEY=kendi_supabase_anon_key_bilginiz
 
-4. Geliştirici sunucusunu başlatın:
-    ```npm run dev  ``` 
+3. Geliştirici sunucusunu başlatın:
+   npm run dev
